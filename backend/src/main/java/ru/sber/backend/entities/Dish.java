@@ -21,18 +21,12 @@ public class Dish {
     private String name;
 
     @ManyToOne
-    @JoinColumn(name = "category", nullable = false)
+    @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
     private double price;
 
     private double weight;
-
-    private String description;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "additive_id")
-    private Additive additive;
 
     private String urlImage;
 
