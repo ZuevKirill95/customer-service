@@ -21,6 +21,8 @@ public class Client {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
+    private String login;
+
     private String name;
 
     private int number;
