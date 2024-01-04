@@ -9,12 +9,6 @@ import ru.sber.backend.models.ResetPassword;
  * Сервис отправки письма на электронную почту
  */
 public interface EmailService {
-    /**
-     * Отправляет письмо на указанную электронную почту
-     *
-     * @param email электронная почта клиента
-     */
-    void sendEmail(SimpleMailMessage email);
 
     /**
      * Отправляет электронный чек на почту

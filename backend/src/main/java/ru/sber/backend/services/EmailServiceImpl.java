@@ -35,11 +35,6 @@ public class EmailServiceImpl implements EmailService {
         this.jwtService = jwtService;
     }
 
-    @Async
-    public void sendEmail(SimpleMailMessage email) {
-        mailSender.send(email);
-    }
-
     @Override
     public void sendOrderConfirmation(OrderResponse order) {
         try {

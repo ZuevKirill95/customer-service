@@ -12,6 +12,9 @@ import ru.sber.backend.models.OrderNotify;
 import ru.sber.backend.models.OrderResponse;
 import ru.sber.backend.services.NotifyService;
 
+/**
+ * Реализует слушаетля в kafka
+ */
 @Slf4j
 @Component
 public class OrderKafkaListener {

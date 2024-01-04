@@ -5,13 +5,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Данные для сброса пароля
+ * Модель применяется при смене пароля
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ResetPassword {
-    private String email;
-    private String username;
-    private String password;
+public class ChangePassword {
+    private String oldPassword;
+    private String newPassword;
 }

@@ -9,6 +9,9 @@ import ru.sber.backend.models.DishFromCart;
 
 import java.util.List;
 
+/**
+ * Реализация бизнес логики взаимодействия с сервисом ресторана
+ */
 @Slf4j
 @Service
 public class RestaurantServiceImpl implements RestaurantService {

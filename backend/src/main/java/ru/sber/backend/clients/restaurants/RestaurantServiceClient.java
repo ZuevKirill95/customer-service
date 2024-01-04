@@ -23,6 +23,11 @@ public interface RestaurantServiceClient {
     @GetMapping(value = "/customer/any", produces = "application/json")
     Page<Dish> getListAllDish(@RequestParam int page, @RequestParam int size);
 
+    /**
+     * Возвращает список блюд по их id
+     * @param list id блюд
+     * @return список блюд
+     */
     @GetMapping(value = "/customer/basket", produces = "application/json")
     List<DishFromCart> getListDishesById(@RequestParam String list);
 }

@@ -8,6 +8,9 @@ import org.springframework.security.oauth2.server.resource.authentication.JwtAut
 import org.springframework.stereotype.Service;
 import ru.sber.backend.exceptions.UserNotFound;
 
+/**
+ * Реализует логику работы с токеном пользователя
+ */
 @Service
 public class JwtServiceImpl implements JwtService {
     @Override

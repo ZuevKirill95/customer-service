@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+/**
+ * Хранит данные о пользователе требуемы для отправки в keycloak
+ */
 @AllArgsConstructor
 @Data
 @NoArgsConstructor

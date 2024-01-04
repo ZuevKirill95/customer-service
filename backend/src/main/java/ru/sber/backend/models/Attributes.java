@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
+/**
+ * Атрибуты в keycloak пользователя
+ */
 @AllArgsConstructor
 @Data
 @NoArgsConstructor

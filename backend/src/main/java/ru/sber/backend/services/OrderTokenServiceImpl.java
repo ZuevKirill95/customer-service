@@ -8,7 +8,9 @@ import ru.sber.backend.repositories.OrderTokenRepository;
 
 import java.util.List;
 
-
+/**
+ * Реализует логику для работы с токеном клиента сервиса заказа
+ */
 @Slf4j
 @Service
 public class OrderTokenServiceImpl implements OrderTokenService {
